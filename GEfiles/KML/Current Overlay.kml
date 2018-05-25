@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<GroundOverlay>
+	<name>Current Overlay</name>
+	<color>bdffffff</color>
+	<Icon>
+		<href>/Users/glennjocher/Google Drive/MATLAB/neutrinos/nSimGUI/GEfiles/KML//Current Overlay.png</href>
+       <refreshMode>onInterval</refreshMode>       <refreshInterval>1</refreshInterval>		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>37.647159</north>
+		<south>25.738396</south>
+		<east>47.392070</east>
+		<west>61.432598</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

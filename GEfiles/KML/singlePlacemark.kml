@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>	<name>CHANGJIANG-1 REACTOR</name>
+   <Style id="sn_arrow">
+		<IconStyle>
+			<color>#FF00FFFF</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_arrow">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_arrow</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_arrow">
+		<IconStyle>
+			<color>#FF00FFFF</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>CHANGJIANG-1 REACTOR</name>
+		<LookAt>
+			<longitude>109.054126</longitude>
+			<latitude>19.260288</latitude>
+			<altitude>0</altitude>
+			<heading>2</heading>
+			<tilt>30</tilt>
+			<range>2000</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_arrow</styleUrl>
+		<Point>
+			<coordinates>109.054126,19.260288,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

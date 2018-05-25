@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>Map Overlay</name>
+	<color>bdffffff</color>
+	<Icon>
+		<href>Map Overlay.png</href>
+       <refreshMode>onInterval</refreshMode>       <refreshInterval>1</refreshInterval>		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>-30.890899</north>
+		<south>-36.719501</south>
+		<east>14.336872</east>
+		<west>21.357135</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

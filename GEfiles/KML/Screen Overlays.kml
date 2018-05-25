@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+	<Folder>
+	<name>Logos</name>
+	<ScreenOverlay id="screenOverlayLogo">
+	  <name>NGA Logo</name>
+	  <description></description>
+	  <Icon>
+        <href>http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/US-NationalGeospatialIntelligenceAgency-2008Seal.svg/200px-US-NationalGeospatialIntelligenceAgency-2008Seal.svg.png</href>
+	  </Icon>
+	  <visibility>1</visibility>	  
+	  <overlayXY x="0" y=".02" xunits="fraction" yunits="fraction"/>
+	  <screenXY x="0" y=".02" xunits="fraction" yunits="fraction"/>
+	  <rotation>0</rotation>
+	  <size x="150" y="150" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+		
+	<ScreenOverlay id="screenOverlayLogo">
+	  <name>Legend</name>
+	  <description></description>
+	  <Icon>
+		<href></href>
+	  </Icon>
+	  <visibility>1</visibility>	  
+	  <overlayXY x="0.012" y="0.030" xunits="fraction" yunits="fraction"/>
+	  <screenXY x="0.012" y="0.030" xunits="fraction" yunits="fraction"/>
+	  <rotation>0</rotation>
+	  <size x="0" y="0" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+	</Folder>
+
+</kml>

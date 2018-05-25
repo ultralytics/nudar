@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<GroundOverlay>
+	<name>Reactor Background Overlay</name>
+	<color>bdffffff</color>
+	<Icon>
+		<href>/Users/glennjocher/Google Drive/MATLAB/neutrinos/nSimGUI/GEfiles/KML//Reactor Background Overlay.png</href>
+       <refreshMode>onInterval</refreshMode>       <refreshInterval>1</refreshInterval>		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>90.000000</north>
+		<south>-90.000000</south>
+		<east>-180.000000</east>
+		<west>180.000000</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>
