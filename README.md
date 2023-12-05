@@ -1,31 +1,87 @@
-<img src="https://storage.googleapis.com/ultralytics/UltralyticsLogoName1000×676.png" width="200">  
+<br>
+<img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320">
 
-# Introduction
+## 🌟 Introduction
 
-This directory contains software developed by Ultralytics LLC. For more information on Ultralytics projects please visit:
-http://www.ultralytics.com/projects
+Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository! Here, we provide advanced simulation tools designed for modeling the Earth's structure and simulating neutrino detector systems. Our work is built upon a foundation of scientific research and is geared towards both the academic community and applied sciences in the field of geophysics and particle physics.
 
-# Description
 
-The https://github.com/ultralytics/nudar repo contains earth modeling and neutrino detector simulation software. 
+## 📜 Description
 
-G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," Physics Reports, Volume 527, Issue 3 (2013), ISSN 0370-1573.
-http://dx.doi.org/10.1016/j.physrep.2013.01.005. 
+The NUDAR project is a comprehensive suite of MATLAB simulations aimed at facilitating the theoretical study of antineutrino interactions and detections. This software plays a crucial role in enhancing our understanding of antineutrino properties and their applications in probing the Earth's interior and nuclear detection.
 
-![Alt](https://github.com/ultralytics/agm2015/blob/master/AGM2015small.jpg "AGM2015")
+Our work is inspired and informed by the seminal paper by G. Jocher et al., titled "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For a deep dive into the scientific and theoretical backgrounds that underpin these simulations, please refer to the publication at:
+http://dx.doi.org/10.1016/j.physrep.2013.01.005.
 
-# Requirements
+![NUDAR](https://github.com/ultralytics/agm2015/blob/master/AGM2015small.jpg "Earth Modeling and Neutrino Detection Simulation")
 
-[MATLAB](https://www.mathworks.com/products/matlab.html) >= 2018a with a common functions repo `$ git clone https://github.com/ultralytics/functions-matlab` added to the MATLAB path `>> addpath(genpath('/functions-matlab'))` and the following toolboxes:
 
+## 🧰 Requirements
+
+To get started with the NUDAR simulations, ensure that you have MATLAB (version 2018a or later) set up on your machine. Additionally, the simulations depend on a repository of common functions which should be included in your MATLAB environment.
+
+Please follow these steps to prepare your work environment:
+
+1. Clone the Common Functions repository for MATLAB:
+   ```shell
+   $ git clone https://github.com/ultralytics/functions-matlab
+   ```
+2. Add the repository to your MATLAB path by running:
+   ```matlab
+   >> addpath(genpath('/functions-matlab'))
+   ```
+   
+**Note:** You should also have the following toolboxes installed in your MATLAB environment:
 - `Statistics and Machine Learning Toolbox`
 - `Signal Processing Toolbox`
 - `Mapping Toolbox`
 
-# Running
+Required licenses for these toolboxes should be acquired through official MATLAB channels.
 
-From MATLAB: `>> iDND`
 
-# Contact
+## 🚀 Running the Simulation
 
-For questions or comments please contact Glenn Jocher at glenn.jocher@ultralytics.com or visit us at http://www.ultralytics.com/contact
+To launch the Interactive Detector Neutrino Direction and Ranging (iDND) tool, simply navigate to the MATLAB command window and enter:
+```matlab
+>> iDND
+```
+This command will initiate the simulation interface, allowing you to explore various neutrino detection scenarios and earth model configurations.
+
+
+## 🤝 Contribute
+
+We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
+
+<!-- Ultralytics contributors -->
+<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
+<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+
+## ©️ License
+
+Ultralytics is excited to offer two different licensing options to meet your needs:
+
+- **AGPL-3.0 License**: Perfect for students and hobbyists, this [OSI-approved](https://opensource.org/licenses/) open-source license encourages collaborative learning and knowledge sharing. Please refer to the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for detailed terms.
+- **Enterprise License**: Ideal for commercial use, this license allows for the integration of Ultralytics software and AI models into commercial products without the open-source requirements of AGPL-3.0. For use cases that involve commercial applications, please contact us via [Ultralytics Licensing](https://ultralytics.com/license).
+
+## 📬 Contact Us
+
+For bug reports, feature requests, and contributions, head to [GitHub Issues](https://github.com/ultralytics/velocity/issues). For questions and discussions about this project and other Ultralytics endeavors, join us on [Discord](https://ultralytics.com/discord)!
+
+<br>
+<div align="center">
+  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="3%" alt="Ultralytics LinkedIn"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://youtube.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.instagram.com/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="3%" alt="Ultralytics Instagram"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
+</div>
+
+Enjoy the journey into the fascinating world of earth modeling and neutrino detection with NUDAR! 🌍✨
