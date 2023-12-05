@@ -5,6 +5,7 @@
 
 Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository! Here, we provide advanced simulation tools designed for modeling the Earth's structure and simulating neutrino detector systems. Our work is built upon a foundation of scientific research and is geared towards both the academic community and applied sciences in the field of geophysics and particle physics.
 
+Enjoy the journey into the fascinating world of earth modeling and neutrino detection with NUDAR! 🌍✨
 
 ## 📜 Description
 
@@ -83,5 +84,3 @@ For bug reports, feature requests, and contributions, head to [GitHub Issues](ht
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
 </div>
-
-Enjoy the journey into the fascinating world of earth modeling and neutrino detection with NUDAR! 🌍✨
