@@ -11,11 +11,9 @@ Enjoy the journey into the fascinating world of earth modeling and neutrino dete
 
 The NUDAR project is a comprehensive suite of MATLAB simulations aimed at facilitating the theoretical study of antineutrino interactions and detections. This software plays a crucial role in enhancing our understanding of antineutrino properties and their applications in probing the Earth's interior and nuclear detection.
 
-Our work is inspired and informed by the seminal paper by G. Jocher et al., titled "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For a deep dive into the scientific and theoretical backgrounds that underpin these simulations, please refer to the publication at:
-http://dx.doi.org/10.1016/j.physrep.2013.01.005.
+Our work is inspired and informed by the seminal paper by G. Jocher et al., titled "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For a deep dive into the scientific and theoretical backgrounds that underpin these simulations, please refer to the publication at: http://dx.doi.org/10.1016/j.physrep.2013.01.005.
 
 ![NUDAR](https://github.com/ultralytics/agm2015/blob/master/AGM2015small.jpg "Earth Modeling and Neutrino Detection Simulation")
-
 
 ## 🧰 Requirements
 
@@ -31,29 +29,31 @@ Please follow these steps to prepare your work environment:
    ```matlab
    >> addpath(genpath('/functions-matlab'))
    ```
-   
+
 **Note:** You should also have the following toolboxes installed in your MATLAB environment:
+
 - `Statistics and Machine Learning Toolbox`
 - `Signal Processing Toolbox`
 - `Mapping Toolbox`
 
 Required licenses for these toolboxes should be acquired through official MATLAB channels.
 
-
 ## 🚀 Running the Simulation
 
 To launch the Interactive Detector Neutrino Direction and Ranging (iDND) tool, simply navigate to the MATLAB command window and enter:
+
 ```matlab
 >> iDND
 ```
-This command will initiate the simulation interface, allowing you to explore various neutrino detection scenarios and earth model configurations.
 
+This command will initiate the simulation interface, allowing you to explore various neutrino detection scenarios and earth model configurations.
 
 ## 🤝 Contribute
 
 We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
 <!-- Ultralytics contributors -->
+
 <a href="https://github.com/ultralytics/yolov5/graphs/contributors">
 <img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
 
