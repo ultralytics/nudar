@@ -52,7 +52,7 @@ npebr1svec = [    n.kr*est(1)*estunc(1)
     n.allbackground*input.fluxnoise.uncorrelated.mean(3) ]; %detector uncertainty (i.e. fiducial volume)
 ne = numel(npebr1svec);
 
-d1.est.br1s    = norm(npebr1svec(1:ne-1)); %backgruond 1sigma only (no fiducial uncertainty)
+d1.est.br1s    = norm(npebr1svec(1:ne-1)); %background 1sigma only (no fiducial uncertainty)
 npebr1svec(ne) = (npebr1svec(ne)^2 + (d1.est.br1s*input.fluxnoise.uncorrelated.mean(3))^2)^.5; %add in detector uncertainty affecting background uncertainty
 d1.est.d1s     = npebr1svec(ne); %background and detector 1sigma
 

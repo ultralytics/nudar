@@ -6,7 +6,7 @@ function [output]=compute_nnbackgrounds_for_SNIF(d, input, table, fiducial_vol, 
 time=input.detectorCollectTime;   %time exposure in days
 %Input Arguments
 %depth = depth in MWE
-%Ecut = energy cut in visibile MeV
+%Ecut = energy cut in visible MeV
 
 %Define SNIF physical characteristics
 %fiducial_vol=160000;    %m^3

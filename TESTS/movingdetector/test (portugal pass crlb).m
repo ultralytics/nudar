@@ -36,7 +36,7 @@ ii=1;
     
     %ML2-------------------------------------------------------------------
     if Ci>0
-        %zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurments per bin;
+        %zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurements per bin;
         zn = d1.epdf.all*table.mev.de;
         
         zei = find(zn);  zn=zn(zei);  ne=numel(zei);
