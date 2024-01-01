@@ -4,7 +4,7 @@ clc
 nd=200;  %input.detectorCollectTime=365/nd; %days
 % **** MUST PUT THIS IN AS OBSERVATION TIME IN INIT.M **** -----------------------
 sk      = table.mev.de/4/pi; %ML3 stabilizing constant
-nbatch  = 100; %number of measurments per batch max
+nbatch  = 100; %number of measurements per batch max
 om1     = ones(input.nxy^2, input.nrp);
 vnrp    = 1:input.nrp;
 rpscale = input.rpVec;  irpscale=1./rpscale;
@@ -79,7 +79,7 @@ for ii = 1:nd
     
 %     %ML2-------------------------------------------------------------------
 %     if Ci>0
-%         zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurments per bin; %CRLB
+%         zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurements per bin; %CRLB
 %         %zn = d1.epdf.all*table.mev.de;
 %         
 %         zei = find(zn);  zn=zn(zei);  ne=numel(zei);

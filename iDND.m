@@ -45,7 +45,7 @@ function varargout = iDND_OutputFcn(hObject, eventdata, handles)
 % varargout  cell array for returning output args (see VARARGOUT);
 % Get default command line output from handles structure
 varargout{1} = handles.output;
-%fprintf('AntiNeutrino Source Simulation Succesfully Opened.\n')
+%fprintf('AntiNeutrino Source Simulation Successfully Opened.\n')
 
 function figure1_CloseRequestFcn(hObject, eventdata, handles)
 evalin('base','delete(get(0,''Children'')); clear')

@@ -6924,7 +6924,7 @@
 <coordinates>2.5161,47.7339,0 </coordinates>
 </Point>
 </Placemark>
-<Placemark id="EL-4 (MONTS D'ARREE)">
+<Placemark id="EL-4 (MONTHS D'ARREE)">
 <Style>
 <IconStyle>
 <Icon>
@@ -6934,11 +6934,11 @@
 <color>ff000000</color>
 </IconStyle>
 </Style>
-<name>EL-4 (MONTS D'ARREE)</name>
+<name>EL-4 (MONTHS D'ARREE)</name>
 <snippet> </snippet>
 <description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr>
 <th>REACTORNAME</th>
-<td>EL-4 (MONTS D'ARREE)</td></tr>
+<td>EL-4 (MONTHS D'ARREE)</td></tr>
 <th>CODE</th>
 <td>FR-6</td></tr>
 <th>STATUS</th>
@@ -6950,7 +6950,7 @@
 <th>CAPACITY_THERMAL</th>
 <td>212</td></tr>
 <th>SITENAME</th>
-<td>MONTS D'ARREE</td></tr>
+<td>MONTHS D'ARREE</td></tr>
 <th>COUNTRY</th>
 <td>FRANCE</td></tr>
 <th>LONGITUDE</th>
@@ -6970,13 +6970,13 @@
 </table></center>]]></description>
 <ExtendedData>
 <SchemaData schemaUrl="UNEPGRID99_">
-<SimpleData name="REACTORAME">EL-4 (MONTS D'ARREE)</SimpleData>
+<SimpleData name="REACTORAME">EL-4 (MONTHS D'ARREE)</SimpleData>
 <SimpleData name="CODE">FR-6</SimpleData>
 <SimpleData name="STATUS">S</SimpleData>
 <SimpleData name="TYPE">HWGCR</SimpleData>
 <SimpleData name="CAPACITY_ELECTRIC">70</SimpleData>
 <SimpleData name="CAPACITY_THERMAL">212</SimpleData>
-<SimpleData name="SITENAME">MONTS D'ARREE</SimpleData>
+<SimpleData name="SITENAME">MONTHS D'ARREE</SimpleData>
 <SimpleData name="COUNTRY">FRANCE</SimpleData>
 <SimpleData name="LONGITUDE">-3.8667</SimpleData>
 <SimpleData name="LATITUDE">48.35</SimpleData>

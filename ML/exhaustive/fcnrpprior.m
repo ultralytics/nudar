@@ -5,7 +5,7 @@ if flags.status.EstMenuUseRPPriorEquation
     Pexp = input.reactor.power; %GW
     sPexp = .05/.3*Pexp; %GW
     for j = 1:input.nrp
-        P = input.rpVec(j); %unkown reactor mean power
+        P = input.rpVec(j); %unknown reactor mean power
         L(:,j) = L(:,j) - (P-Pexp).^2/sPexp^2;
     end
 end

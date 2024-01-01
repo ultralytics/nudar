@@ -13,17 +13,17 @@ snr = u./s;
 
 subplot(3,1,1)
 bar(e,u,.8,'EdgeColor',[.7 .7 .7],'FaceColor','b'); ylabel('\mu (mm)'); axis tight; xlabel('E_{\nu} (MeV)','Interpreter','tex')
-title({'Direction Vector Magnitude \mu',sprintf('Detector Type %.0f, Candidate Critera %.0f', input.di, input.ci)})
+title({'Direction Vector Magnitude \mu',sprintf('Detector Type %.0f, Candidate Criteria %.0f', input.di, input.ci)})
 fcncontextmenuexpand(gca)
 
 subplot(3,1,2)
 bar(e,s,.8,'EdgeColor',[.7 .7 .7],'FaceColor','b'); ylabel('1\sigma (mm)'); axis tight; xlabel('E_{\nu} (MeV)','Interpreter','tex')
-title({'Direction Vector 1\sigma Standard Deviation Per Axis', sprintf('Detector Type %.0f, Candidate Critera %.0f', input.di, input.ci)})
+title({'Direction Vector 1\sigma Standard Deviation Per Axis', sprintf('Detector Type %.0f, Candidate Criteria %.0f', input.di, input.ci)})
 fcncontextmenuexpand(gca)
 
 subplot(3,1,3)
 bar(e,snr,.8,'EdgeColor',[.7 .7 .7],'FaceColor','b'); ylabel('SNR'); axis tight; xlabel('E_{\nu} (MeV)','Interpreter','tex')
-title(sprintf('Direction Vector SNR\nDetector Type %.0f, Candidate Critera %.0f', input.di, input.ci))
+title(sprintf('Direction Vector SNR\nDetector Type %.0f, Candidate Criteria %.0f', input.di, input.ci))
 fcncontextmenuexpand(gca)
 
 %FIGURE 1
@@ -65,14 +65,14 @@ for i = 1:4
 end
 xlabel(h1, 'cos\theta')
 ylabel(h1, 'p(cos\theta)')
-title(h1, sprintf('Smeared Angular Probability\nDetector Type %.0f, Candidate Critera %.0f', input.di, input.ci))
+title(h1, sprintf('Smeared Angular Probability\nDetector Type %.0f, Candidate Criteria %.0f', input.di, input.ci))
 pos = get(h1,'Position');
 set(h1,'Position',pos.*[1 1 .9 1])
 fcncontextmenuexpand(h1)
 
 xlabel(h2, '\theta (deg)')
 ylabel(h2, 'p(\theta)')
-title(h2, sprintf('Smeared Angular Probability\nDetector Type %.0f, Candidate Critera %.0f', input.di, input.ci))
+title(h2, sprintf('Smeared Angular Probability\nDetector Type %.0f, Candidate Criteria %.0f', input.di, input.ci))
 axis(h2,'tight')
 fcncontextmenuexpand(h2)
 end

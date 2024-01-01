@@ -6,7 +6,7 @@
 %Developed on under contract to the United States Government (USG)
 %Classification: Unclassified
 %
-%Restictions:
+%Restrictions:
 %1) Do not redistribute without permission from USG and/or IAI
 %2) Not reviewed or approved for release under ITAR
 %==========================================================================

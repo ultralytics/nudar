@@ -13,7 +13,7 @@ fprintf('Running ML123...'); startclock = clock; %#ok<NASGU>
 om1     = ones(input.nxy^2, input.nrp);
 L       = zeros(input.nxy^2, input.nrp);
 ov1     = ones(input.nxy^2, 1);
-nbatch  = 50; %number of measurments per batch max
+nbatch  = 50; %number of measurements per batch max
 sk      = table.mev.de/4/pi; %stabilizing constant
 pdfur   = zeros(input.nxy^2, nbatch);
 vnrp    = uint16(1:input.nrp);
@@ -181,7 +181,7 @@ for iv = 1:nv
     
     %     %ML2-------------------------------------------------------------------
     %     if flags.status.ML2 && Ci>0
-    %         zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurments per bin;
+    %         zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurements per bin;
     %         epdf = e(1)*d1.epdf.kr + e(2)*d1.epdf.mantle + e(3)*d1.epdf.crust + e(4)*d1.epdf.fastneutron + e(5)*d1.epdf.accidental + e(6)*d1.epdf.cosmogenic;
     %         if flags.status.CRLB
     %            zn = d1.epdf.all*table.mev.de;
@@ -207,7 +207,7 @@ for iv = 1:nv
     %         L = L + interp1(d1.est.urtable.r, b, d1.est.r) - log(Ti)*Ci;
     %     end
     if flags.status.ML2 && Ci>0
-        zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurments per bin;
+        zn = accumarray(d1.z.eic, 1, [table.mev.ne 1]); %measurements per bin;
         epdf = d1.epdf.fastneutron;
         %     if flags.status.CRLB
         %         zn = d1.epdf.all*table.mev.de;
@@ -313,7 +313,7 @@ n0 = size(v0,1);
 n1 = size(v1,1); %#ok<*NODEF>
 j = ceil(rand(n1*10,1)*n1); v1 = v1(j,:);  angle = angle(j,:); %random MC reordering
 
-i = mod(1:n0,n1); i(i==0)=n1; %re-use measurements if necessary
+i = mod(1:n0,n1); i(i==0)=n1; %reuse measurements if necessary
 roll = pi*(2*rand(n0,1)-1);
 udxecefs = fcnrotateW2B(roll,fcnel(v0),fcnaz(v0),v1(i,:));
 zas = angle(i); %z angle
