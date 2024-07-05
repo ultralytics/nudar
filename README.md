@@ -15,7 +15,7 @@ The NUDAR project is a comprehensive suite of MATLAB simulations aimed at facili
 
 Our work is inspired and informed by the seminal paper by G. Jocher et al., titled "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For a deep dive into the scientific and theoretical backgrounds that underpin these simulations, please refer to the publication at: http://dx.doi.org/10.1016/j.physrep.2013.01.005.
 
-![NUDAR](https://github.com/ultralytics/agm2015/blob/master/AGM2015small.jpg "Earth Modeling and Neutrino Detection Simulation")
+![NUDAR](https://github.com/ultralytics/agm2015/blob/main/AGM2015small.jpg "Earth Modeling and Neutrino Detection Simulation")
 
 ## 🧰 Requirements
 
