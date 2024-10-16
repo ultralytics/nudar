@@ -11,6 +11,8 @@ Enjoy the journey into the fascinating world of earth modeling and neutrino dete
 
 ## 📜 Description
 
+
+
 The NUDAR project is a comprehensive suite of MATLAB simulations aimed at facilitating the theoretical study of antineutrino interactions and detections. This software plays a crucial role in enhancing our understanding of antineutrino properties and their applications in probing the Earth's interior and nuclear detection.
 
 Our work is inspired and informed by the seminal paper by G. Jocher et al., titled "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For a deep dive into the scientific and theoretical backgrounds that underpin these simulations, please refer to the publication at: http://dx.doi.org/10.1016/j.physrep.2013.01.005.
