@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [h, minVal, maxVal, minX, minY, maxX, maxY] = plotMinMax(xVals,yVals,surfxy,varargin)
 h=[];
 

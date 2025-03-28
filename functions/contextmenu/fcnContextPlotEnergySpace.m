@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnContextPlotEnergySpace(input, flags, table, d1, ~)
 evec = table.mev.e -.7823;
 %if ~isfield(d1,'epdf') || isempty(d1.epdf)

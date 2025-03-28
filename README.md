@@ -1,74 +1,71 @@
-<br>
-<a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 ## 🌟 Introduction
 
-Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository! Here, we provide advanced simulation tools designed for modeling the Earth's structure and simulating neutrino detector systems. Our work is built upon a foundation of scientific research and is geared towards both the academic community and applied sciences in the field of geophysics and particle physics.
+Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository by [Ultralytics](https://www.ultralytics.com/)! This project offers sophisticated simulation tools crafted for modeling the Earth's structure and simulating [neutrino](https://en.wikipedia.org/wiki/Neutrino) detector systems. Grounded in scientific research, our tools cater to both the academic community and applied sciences within [geophysics](https://en.wikipedia.org/wiki/Geophysics) and [particle physics](https://home.cern/science/physics/particle-physics). Explore the fascinating intersection of earth modeling and neutrino detection with NUDAR! 🌍✨
 
-[![Ultralytics Actions](https://github.com/ultralytics/nudar/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/nudar/actions/workflows/format.yml) <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
-
-Enjoy the journey into the fascinating world of earth modeling and neutrino detection with NUDAR! 🌍✨
+[![Ultralytics Actions](https://github.com/ultralytics/nudar/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/nudar/actions/workflows/format.yml)
+[![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
 ## 📜 Description
 
-The NUDAR project is a comprehensive suite of MATLAB simulations aimed at facilitating the theoretical study of antineutrino interactions and detections. This software plays a crucial role in enhancing our understanding of antineutrino properties and their applications in probing the Earth's interior and nuclear detection.
+NUDAR provides a comprehensive suite of [MATLAB](https://www.mathworks.com/products/matlab.html) simulations designed to advance the theoretical study of [antineutrino](https://en.wikipedia.org/wiki/Antineutrino) interactions and detection. This software is instrumental in deepening our understanding of antineutrino properties and their potential applications, such as probing the [Earth's interior](https://education.nationalgeographic.org/resource/encyclopedia/earths-interior/) and enhancing nuclear detection capabilities.
 
-Our work is inspired and informed by the seminal paper by G. Jocher et al., titled "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For a deep dive into the scientific and theoretical backgrounds that underpin these simulations, please refer to the publication at: http://dx.doi.org/10.1016/j.physrep.2013.01.005.
+Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in [Physics Reports](https://www.sciencedirect.com/journal/physics-reports) (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [http://dx.doi.org/10.1016/j.physrep.2013.01.005](http://dx.doi.org/10.1016/j.physrep.2013.01.005). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
 
 ![Earth Modeling and Neutrino Detection Simulation](https://github.com/ultralytics/agm2015/blob/main/AGM2015small.jpg)
 
 ## 🧰 Requirements
 
-To get started with the NUDAR simulations, ensure that you have MATLAB (version 2018a or later) set up on your machine. Additionally, the simulations depend on a repository of common functions which should be included in your MATLAB environment.
+To utilize the NUDAR simulations, ensure you have MATLAB (version 2018a or later) installed. The simulations also rely on a common functions repository, which must be accessible within your MATLAB environment.
 
-Please follow these steps to prepare your work environment:
+Follow these steps to set up your environment:
 
-1. Clone the Common Functions repository for MATLAB:
-   ```shell
-   $ git clone https://github.com/ultralytics/functions-matlab
-   ```
-2. Add the repository to your MATLAB path by running:
-   ```matlab
-   >> addpath(genpath('/functions-matlab'))
-   ```
+1.  Clone the Common Functions repository for MATLAB:
+    ```shell
+    git clone https://github.com/ultralytics/functions-matlab
+    ```
+2.  Add the cloned repository to your MATLAB path using the following command:
+    ```matlab
+    addpath(genpath('/path/to/functions-matlab')) % Replace /path/to/ with the actual path
+    ```
 
-**Note:** You should also have the following toolboxes installed in your MATLAB environment:
+**Note:** The following MATLAB toolboxes are also required:
 
-- `Statistics and Machine Learning Toolbox`
-- `Signal Processing Toolbox`
-- `Mapping Toolbox`
+- [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
+- [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
+- [Mapping Toolbox](https://www.mathworks.com/products/mapping.html)
 
-Required licenses for these toolboxes should be acquired through official MATLAB channels.
+Ensure you have the necessary licenses for these toolboxes, obtainable through official [MathWorks](https://www.mathworks.com/) channels.
 
 ## 🚀 Running the Simulation
 
-To launch the Interactive Detector Neutrino Direction and Ranging (iDND) tool, simply navigate to the MATLAB command window and enter:
+To start the Interactive Detector Neutrino Direction and Ranging (iDND) tool, execute the following command in the MATLAB command window:
 
 ```matlab
->> iDND
+iDND
 ```
 
-This command will initiate the simulation interface, allowing you to explore various neutrino detection scenarios and earth model configurations.
+This command launches the simulation interface, enabling exploration of various neutrino detection scenarios and earth model configurations. For more on simulation techniques, check resources on [computational modeling](https://en.wikipedia.org/wiki/Computational_model).
 
 ## 🤝 Contribute
 
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
+Contributions from the community are highly encouraged! Whether it's fixing bugs, proposing new features, or enhancing documentation, your input is valuable. Please see our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for details on how to get started. We also invite you to share your experiences with Ultralytics technologies by completing our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A big thank you 🙏 to all our contributors!
 
-<!-- Ultralytics contributors -->
-
-<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
-<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/nudar/graphs/contributors)
 
 ## ©️ License
 
-Ultralytics is excited to offer two different licensing options to meet your needs:
+Ultralytics offers two licensing options for NUDAR:
 
-- **AGPL-3.0 License**: Perfect for students and hobbyists, this [OSI-approved](https://opensource.org/license) open-source license encourages collaborative learning and knowledge sharing. Please refer to the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for detailed terms.
-- **Enterprise License**: Ideal for commercial use, this license allows for the integration of Ultralytics software and AI models into commercial products without the open-source requirements of AGPL-3.0. For use cases that involve commercial applications, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-3.0/) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
+- **Enterprise License**: Designed for commercial applications, this license permits the integration of NUDAR into commercial products and services without the open-source obligations of AGPL-3.0. For commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
 
-For bug reports, feature requests, and contributions, head to [GitHub Issues](https://github.com/ultralytics/velocity/issues). For questions and discussions about this project and other Ultralytics endeavors, join us on [Discord](https://discord.com/invite/ultralytics)!
+If you encounter bugs, have feature requests, or wish to contribute, please use [GitHub Issues](https://github.com/ultralytics/nudar/issues). For broader questions and discussions about NUDAR or other Ultralytics projects, join our vibrant community on [Discord](https://discord.com/invite/ultralytics)!
 
 <br>
 <div align="center">

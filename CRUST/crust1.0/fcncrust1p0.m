@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function crust = fcncrust1p0(input,table)
 layerNames = {'1. Water';'2. Ice';'3. Upper Sediment';'4. Middle Sediment';'5. Lower Sediment';'6. Upper Crust';'7. Middle Crust';'8. Lower Crust (Mohorovicic Discontinuity)';'9. Upper Mantle'};
 s = [360,180,9];

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 FileName = sprintf('%s KamLAND 80pc ML02 D1 CandidateID2 Trade Study',input.scenario);
 
 reset(RandStream.getGlobalStream)

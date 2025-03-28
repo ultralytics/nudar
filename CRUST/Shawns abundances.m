@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %Abundance Table Mantovani et al. 2004 ----------------------------------------------------------
 
 %   uranium      thorium     potassium

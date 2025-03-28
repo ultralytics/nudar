@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnContextPlotIAEAreactorDetails(input, flags, h, xy)
 %GET ECEF
 lla = fcnGoogleMapsXY2LLA(input, flags, xy(1,1:2));

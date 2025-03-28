@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function fcnGenerateKMLcylinders(input, flags)
 kmlStr_IAEA='';
 kmlStr_Reactor='';

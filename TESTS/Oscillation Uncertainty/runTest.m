@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 input.osc.true.mu = fcnrandosc(1, input, flags);
 
 

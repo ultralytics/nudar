@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [a, u] = fcnloadPRIS(fname)
 %a = all reactors
 %u = unique sites

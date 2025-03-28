@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 if exist('L','var')
     L = L - max(L(isfinite(L)));
     p = exp(L);

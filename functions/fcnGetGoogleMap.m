@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [zi, input] = fcnGetGoogleMap(input, flags)
 gm = input.google.maps;
 if isfield(gm, 'Cdata')

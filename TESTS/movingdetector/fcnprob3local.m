@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [ae1, e1] = fcnprob3local(input, table, d1, flags)
 
 %geo

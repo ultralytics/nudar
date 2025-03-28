@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function input = fcnupdatefluxnoise(input, table, d, flags)
 if flags.status.aprioribackground
     mu = [.02 .50 .20 .10 .0125 .0327];

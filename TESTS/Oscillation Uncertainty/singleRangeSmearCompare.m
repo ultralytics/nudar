@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 r=1; %km
 
 op1 = [7.58E-5, 2.35E-3, 0.312, 0.025];

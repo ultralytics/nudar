@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function d1 = fcnContextPlotAngleSpace(input, flags, table, d1, ~)
 tic
 scCont = worldContour(input, d1);

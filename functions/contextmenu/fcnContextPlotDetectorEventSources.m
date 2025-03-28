@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnContextPlotDetectorEventSources(input, flags, table, d1, xy)
 [~, ~, d1] = fcnenergycut(input, flags, table, d1);
 

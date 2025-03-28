@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %Compute NN Background for SNIF
 
 function [output]=compute_nnbackgrounds_for_SNIF(d, input, table, fiducial_vol, depth, Ecut, pdfx, pdfy_fn, pdfy_acc, pdfy_cosm)

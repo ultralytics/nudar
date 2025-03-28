@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function d1 = fcnSingleDetector(d1, table, input)
 fprintf('Creating Detector %.0f Measurements... ',d1.number); startclock=clock;
 udxecef=[]; zel=[]; zaz=[]; ze=[];

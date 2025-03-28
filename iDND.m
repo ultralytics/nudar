@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %INITIALIZATION FUNCTIONS -------------------------------------------------
 function varargout = iDND(varargin)
 % IDND M-file for iDND.fig

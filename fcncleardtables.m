@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function d = fcncleardtables(d, input)
 
 for i = 1:input.dCount

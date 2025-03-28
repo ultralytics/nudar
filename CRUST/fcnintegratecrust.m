@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [d1, npeuranium] = fcnintegratecrust(d1, table, aeflag, threshold, maxgen)
 npeuranium=0;
 if nargin<4

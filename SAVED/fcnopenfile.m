@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [d, input, handles, flags] = fcnopenfile(filename, table, stable, oldinput)
 cla
 new = load(filename);

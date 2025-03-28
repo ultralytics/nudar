@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %Copyright 2011, Integrity Applications Incorporated
 %
 %Developed by Christopher Mulliss, Senior System Engineer, IAI

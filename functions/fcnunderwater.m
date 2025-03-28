@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [flag] = fcnunderwater(input, flags, lat, lng)
 %flag=false, not underwater
 %flag=true, underwater

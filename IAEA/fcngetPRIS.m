@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [X, status] = fcngetPRIS()
 %[~,~,X] = xlsread('IAEA PRIS April 2014.xls');  X=X(1:end,:);  save('IAEA PRIS April 2014.mat','X');
 clc; startclock=clock;

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [npebr, npebr1s, d1] = fcnenergycut(input, flags, table, d1)
 %npebr = number of background events to expect after cut
 %nz0 = number of observed events after cut

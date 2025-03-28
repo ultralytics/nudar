@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input, table] = fcnosctables(input, table0, flags)
 fprintf('Building Oscillation Tables... '); tic
 day = input.detectorCollectTime;

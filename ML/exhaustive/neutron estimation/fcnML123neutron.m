@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [handles, MC] = fcnML123neutron(input,handles,flags,d,table)
 newHandles = []; MC = [];
 flags.status.CRLB = 0;

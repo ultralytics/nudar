@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function []=fcndefinenonneutrinos()
 e = 0:.01:11; de=e(2)-e(1);
 

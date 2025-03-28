@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [z, z1] = fcnGetAltitude(input, flags, lat, lng)
 %z = altitude in meters using custom sink/float/depth stuff
 %z1 = ETOPO1 altitude over WGS84
