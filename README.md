@@ -1,13 +1,13 @@
 <a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
+## 🌟 Introduction
+
+Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository by [Ultralytics](https://www.ultralytics.com/)! This project offers sophisticated simulation tools crafted for modeling the Earth's structure and simulating [neutrino](https://en.wikipedia.org/wiki/Neutrino) detector systems. Grounded in scientific research, our tools cater to both the academic community and applied sciences within [geophysics](https://en.wikipedia.org/wiki/Geophysics) and [particle physics](https://home.cern/science/physics/particle-physics). Explore the fascinating intersection of earth modeling and neutrino detection with NUDAR! 🌍✨
+
 [![Ultralytics Actions](https://github.com/ultralytics/nudar/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/nudar/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
 [![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
 [![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
-
-## 🌟 Introduction
-
-Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository by [Ultralytics](https://www.ultralytics.com/)! This project offers sophisticated simulation tools crafted for modeling the Earth's structure and simulating [neutrino](https://en.wikipedia.org/wiki/Neutrino) detector systems. Grounded in scientific research, our tools cater to both the academic community and applied sciences within [geophysics](https://en.wikipedia.org/wiki/Geophysics) and [particle physics](https://home.cern/science/physics/particle-physics). Explore the fascinating intersection of earth modeling and neutrino detection with NUDAR! 🌍✨
 
 ## 📜 Description
 
