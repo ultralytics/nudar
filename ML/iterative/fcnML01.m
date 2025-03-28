@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [fx1, gx] = fcnML01(input, d, table, flags, active, x, xactive)
 %fx = likelihood of x;   gx = gradient of x;   %x = [1-kr 2-mantle 3-crust 4-fn 5-acc 6-cosm 7-dm12 8-dm13 9-s2t12 10-s2t13];
 x(active)=xactive;

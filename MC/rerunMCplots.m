@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 directory = cd;
 fh = findall(0,'Type','figure'); %figure handles
 close(fh(fh~=handles.GUI.figure1));

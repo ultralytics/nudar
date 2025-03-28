@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function ha=plotcrust1p0(names,latm,lngm,a,astr,units)
 s = [360,180,9];
 a = reshape(a,s);

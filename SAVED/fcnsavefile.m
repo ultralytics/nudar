@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnsavefile(filename, d, input, handles, flags)
 input.ETOPO = [];
 input.EGM = [];

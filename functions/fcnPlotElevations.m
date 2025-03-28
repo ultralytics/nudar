@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function hOut = fcnPlotElevations(input)
 maps = input.google.maps;
 

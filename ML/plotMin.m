@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [h, minVal] = plotMin(x,y,surfxy,varargin)
 h=[];
 [minVal,i] = min3(surfxy);

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [pdfys, gpdfs] = fcnsmearenergy(input, table, pdfx, pdfy, pdfxi)
 %CONDITIONS ONE PDF ON ANOTHER!
 

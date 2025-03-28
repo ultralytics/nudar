@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function d1 = fcngetnonneutrinos(d1, input, table)
 
 if isempty(d1.nonneutrinos) || d1.nonneutrinos.depth~=d1.detectordepth

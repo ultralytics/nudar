@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [newHandles, MC, d, input, flags] = fcnML0(input,handles,flags,d,table)
 newHandles = []; MC = [];
 if flags.status.ML0==0 || input.dValid.count<1

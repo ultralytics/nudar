@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnGenerateKMLoverlay(input, kmlfname, picfname, kmlname, extent)
 %extent = [min(lat) max(lat) min(lng) max(lng)]
 

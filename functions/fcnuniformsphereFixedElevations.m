@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [cc, sc, azperel, eli, n2] = fcnuniformsphereFixedElevations(elvec)
 %cc = x y z unit vectors that make up a uniform sphere
 

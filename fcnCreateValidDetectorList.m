@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input, d] = fcnCreateValidDetectorList(input, d)
 %BUILD A LIST OF VALID DETECTORS THAT HAVE >0 EVENTS RECORDED BY CURRENTLY REQUESTED DAY
 input.dValid.idx                = zeros(1,1);

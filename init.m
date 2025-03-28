@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %DEFINE PATHS -------------------------------------------------------------
 cp = fcnpathm1(mfilename('fullpath')); cd(cp); addpath(genpath(cp));
 cp = fcnpathm1(cp); addpath(cp);

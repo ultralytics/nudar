@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 if exist('L','var')
     maxL = max3(L);  if maxL==inf;  maxL=max3(L(L~=inf));  L(L==inf)=maxL;  end
     L=L-maxL;

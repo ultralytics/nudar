@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnGenerateKMLplacemark(input, lla, descriptor, kmlfname, color)
 % yellow = '#FF00FFFF';
 % blue = '#FFFF0000';

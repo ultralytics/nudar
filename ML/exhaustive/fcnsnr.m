@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function d1 = fcnsnr(input, table, d1)
 epdf = d1.epdf.allbackground/sum(d1.epdf.allbackground);
 snr10 = table.d(input.di).rVecMag(:,input.ci)./table.d(input.di).rVecStd(:,input.ci) / input.dNoiseMultiplier;

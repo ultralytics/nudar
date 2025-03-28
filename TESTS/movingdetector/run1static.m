@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 clc
 
 % **** MUST PUT THIS IN AS OBSERVATION TIME IN INIT.M **** -----------------------

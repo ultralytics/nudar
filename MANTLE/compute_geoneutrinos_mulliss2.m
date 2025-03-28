@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %Compute GeoNeutrinos
 %Mulliss, 5 Oct 2010 
 %Using PREM for density profile, and abundances from Bulk Silicate Earth (BSE) Model

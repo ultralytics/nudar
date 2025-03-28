@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [h] = fcnplotMCresults(input, table, flags, handles, p, mlpoint, systematic, d)
 newHandles = [];
 startclock = clock; %#ok<NASGU>

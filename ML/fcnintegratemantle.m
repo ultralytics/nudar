@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function s2 = fcnintegratemantle(s, table)
 dc=1;
 cmPerkm = 100000;

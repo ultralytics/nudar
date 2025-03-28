@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnPlotSpectra(input, table); tic
 maxRange = 30; %km
 F=griddedInterpolant(table.mev.r,1:numel(table.mev.r),'nearest'); ir=F(maxRange);

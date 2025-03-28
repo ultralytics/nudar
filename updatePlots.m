@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 if flags.reactorPlaced
     if flags.explosion
         set(handles.reactorText,'String', sprintf('   Explosion\n   %.1fkTon ',input.reactor.power),'Color',[0 0 0]);

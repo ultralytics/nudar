@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [newHandles, bestd, enclosedArea] = plotContour(x,y,z,input,flags,handles)
 
 %FIND 90% CONTOUR DENSITY -------------------------------------------------

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 clc
 
 nd=100;  input.detectorCollectTime=365/nd; %days

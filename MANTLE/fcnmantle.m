@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function table = fcnmantle(table)
 fprintf('Making Mantle... ');tic
 

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [input, d, h] = fcnUpdateGoogleMap(input, d, h, flags, table)
 %fcnUpdateGoogleMap(input, handles)
 

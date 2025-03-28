@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [n, epdf, ae] = fcnmeanspectra(input, table, d1, addnoiseflag)
 fprintf('Building 3D Measurement Space... '); tic
 nr                  = input.reactor.IAEAdata.unique.n;

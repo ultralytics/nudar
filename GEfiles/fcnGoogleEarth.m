@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnGoogleEarth(input, handles, flags)
 dir = [input.directory '/GEfiles/KML/'];
 gm = input.google.maps;

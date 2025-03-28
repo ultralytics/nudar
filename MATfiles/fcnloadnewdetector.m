@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function []=fcnloadnewdetector()
 
 [FileName,PathName] = uigetfile('*.mat','Select a Detector to Load into the Lookup Table:',[cd '/MATFiles/']);

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 if input.dCount>0;
     [input, table] = fcnosctables(input, table, flags);
     input = fcnupdatefluxnoise(input, table, d, flags);

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [C, D] = fcndcorr(input, d)
 %Count Covariance from one detector to another
 %C = covariance matrix

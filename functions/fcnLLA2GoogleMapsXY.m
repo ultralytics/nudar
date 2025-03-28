@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function xy = fcnLLA2GoogleMapsXY(input,LLA)
 lat = LLA(:,1);
 lng = LLA(:,2);

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function []= fcnPlotMantle(input, table)
 ss = get(0,'ScreenSize');
 set(figure,'Position',ss)

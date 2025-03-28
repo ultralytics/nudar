@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function LLA = fcnGoogleMapsXY2LLA(input, flags, xy)
 r2d = 180/pi;
 xy640 = xy*(639/input.nxy);

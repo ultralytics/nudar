@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 if ~isfield(flags.status,'MC6')
     dstr = num2str(input.dValid.idx); dstr = [' D' dstr(~isspace(dstr))];
     cutstr = [' ' num2str(input.ecut.value) 'MeVcut'];

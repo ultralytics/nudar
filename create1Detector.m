@@ -1,3 +1,4 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
 if ~exist('lla','var')
     lla=fcnGoogleMapsXY2LLA(input, flags, [xi yi]);

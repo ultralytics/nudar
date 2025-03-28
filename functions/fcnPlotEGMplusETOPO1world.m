@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = fcnPlotEGMplusETOPO1world(input, flags)
 flags.status.SeaMenuDetectorFloat=1;
 flags.status.SeaMenuEGM96=1;

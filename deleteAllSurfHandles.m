@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 deleteh(handles.ML0); handles.ML0=[];
 deleteh(handles.ML1); handles.ML1=[];
 deleteh(handles.ML2); handles.ML2=[];

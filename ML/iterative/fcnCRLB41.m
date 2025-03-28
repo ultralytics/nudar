@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [sx] = fcnCRLB41(input, d, table, flags, x)
 %fx = likelihood of x
 %gx = gradient of x

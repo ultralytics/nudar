@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 % function [] = fcnruntest()
 ni = 100;
 input.reactor.power = 5000;

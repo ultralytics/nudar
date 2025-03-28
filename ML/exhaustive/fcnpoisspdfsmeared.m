@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function L = fcnpoisspdfsmeared(Oi, Ti0, sig)
 
 if Oi>50
