@@ -34,9 +34,9 @@ Follow these steps to set up your environment:
 
 **Note:** The following MATLAB toolboxes are also required:
 
--   [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
--   [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
--   [Mapping Toolbox](https://www.mathworks.com/products/mapping.html)
+- [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
+- [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
+- [Mapping Toolbox](https://www.mathworks.com/products/mapping.html)
 
 Ensure you have the necessary licenses for these toolboxes, obtainable through official [MathWorks](https://www.mathworks.com/) channels.
 
@@ -60,8 +60,8 @@ Contributions from the community are highly encouraged! Whether it's fixing bugs
 
 Ultralytics offers two licensing options for NUDAR:
 
--   **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-3.0/) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
--   **Enterprise License**: Designed for commercial applications, this license permits the integration of NUDAR into commercial products and services without the open-source obligations of AGPL-3.0. For commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-3.0/) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
+- **Enterprise License**: Designed for commercial applications, this license permits the integration of NUDAR into commercial products and services without the open-source obligations of AGPL-3.0. For commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
 
