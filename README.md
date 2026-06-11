@@ -2,7 +2,7 @@
 
 ## 🌟 Introduction
 
-Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository by [Ultralytics](https://www.ultralytics.com/)! This project offers sophisticated simulation tools crafted for modeling the Earth's structure and simulating [neutrino](https://en.wikipedia.org/wiki/Neutrino) detector systems. Grounded in scientific research, our tools cater to both the academic community and applied sciences within [geophysics](https://en.wikipedia.org/wiki/Geophysics) and [particle physics](https://home.cern/science/physics/particle-physics). Explore the fascinating intersection of earth modeling and neutrino detection with NUDAR! 🌍✨
+Welcome to the NUDAR (NeUtrino Detection and Ranging) repository by [Ultralytics](https://www.ultralytics.com/)! This project offers sophisticated simulation tools crafted for modeling the Earth's structure and simulating [neutrino](https://en.wikipedia.org/wiki/Neutrino) detector systems. Grounded in scientific research, our tools cater to both the academic community and applied sciences within [geophysics](https://en.wikipedia.org/wiki/Geophysics) and [particle physics](https://home.cern/science/physics/). Explore the fascinating intersection of earth modeling and neutrino detection with NUDAR! 🌍✨
 
 [![Ultralytics Actions](https://github.com/ultralytics/nudar/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/nudar/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
@@ -11,9 +11,9 @@ Welcome to the NUDAR (Nuclear Detection, Ranging, and Mapping) repository by [Ul
 
 ## 📜 Description
 
-NUDAR provides a comprehensive suite of [MATLAB](https://www.mathworks.com/products/matlab.html) simulations designed to advance the theoretical study of [antineutrino](https://en.wikipedia.org/wiki/Antineutrino) interactions and detection. This software is instrumental in deepening our understanding of antineutrino properties and their potential applications, such as probing the [Earth's interior](https://education.nationalgeographic.org/resource/encyclopedia/earths-interior/) and enhancing nuclear detection capabilities.
+NUDAR provides a comprehensive suite of [MATLAB](https://www.mathworks.com/products/matlab.html) simulations designed to advance the theoretical study of [antineutrino](https://en.wikipedia.org/wiki/Antineutrino) interactions and detection. This software is instrumental in deepening our understanding of antineutrino properties and their potential applications, such as probing the [Earth's interior](https://pubs.usgs.gov/gip/interior/) and enhancing nuclear detection capabilities.
 
-Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in [Physics Reports](https://www.sciencedirect.com/journal/physics-reports) (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [http://dx.doi.org/10.1016/j.physrep.2013.01.005](http://dx.doi.org/10.1016/j.physrep.2013.01.005). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
+Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [https://doi.org/10.1016/j.physrep.2013.01.005](https://doi.org/10.1016/j.physrep.2013.01.005). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
 
 ![Earth Modeling and Neutrino Detection Simulation](https://github.com/ultralytics/agm2015/blob/main/AGM2015small.jpg)
 
@@ -60,7 +60,7 @@ Contributions from the community are highly encouraged! Whether it's fixing bugs
 
 Ultralytics offers two licensing options for NUDAR:
 
-- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-3.0/) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
+- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
 - **Enterprise License**: Designed for commercial applications, this license permits the integration of NUDAR into commercial products and services without the open-source obligations of AGPL-3.0. For commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
