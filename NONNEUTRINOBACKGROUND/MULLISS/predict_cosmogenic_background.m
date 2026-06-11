@@ -111,7 +111,7 @@ likelihood_selection_eff=1;          %0.891 for KL, 1 for Borexino (derived to m
 [muon_intensity_ref,muon_average_energy_ref]=predict_muon_intensity(depth_flat_eq_ref,1);
 [muon_intensity,muon_average_energy]=predict_muon_intensity(depth,type);
 
-%Compute Duty Cycle loss related to muon_DT (applies to all muons passing thru detector)
+%Compute Duty Cycle loss related to muon_DT (applies to all muons passing through detector)
 if fiducial_vol>150000    %Special case to handle SNIF because it's shape is significantly elongated
     muon_cross_section=(2*23*96.5);                         %m^2
 else
