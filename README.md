@@ -13,7 +13,7 @@ Welcome to the NUDAR (NeUtrino Detection and Ranging) repository by [Ultralytics
 
 NUDAR provides a comprehensive suite of [MATLAB](https://www.mathworks.com/products/matlab.html) simulations designed to advance the theoretical study of [antineutrino](https://en.wikipedia.org/wiki/Antineutrino) interactions and detection. This software is instrumental in deepening our understanding of antineutrino properties and their potential applications, such as probing the [Earth's interior](https://pubs.usgs.gov/gip/interior/) and enhancing nuclear detection capabilities.
 
-Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [https://doi.org/10.1016/j.physrep.2013.01.005](https://doi.org/10.1016/j.physrep.2013.01.005). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
+Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [https://doi.org/10.1016/j.physrep.2013.01.005](https://linkinghub.elsevier.com/retrieve/pii/S0370157313000240). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
 
 ![Earth Modeling and Neutrino Detection Simulation](https://github.com/ultralytics/agm2015/blob/main/AGM2015small.jpg)
 
@@ -52,7 +52,7 @@ This command launches the simulation interface, enabling exploration of various 
 
 ## 🤝 Contribute
 
-Contributions from the community are highly encouraged! Whether it's fixing bugs, proposing new features, or enhancing documentation, your input is valuable. Please see our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for details on how to get started. We also invite you to share your experiences with Ultralytics technologies by completing our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A big thank you 🙏 to all our contributors!
+Contributions from the community are highly encouraged! Whether it's fixing bugs, proposing new features, or enhancing documentation, your input is valuable. Please see our [Contributing Guide](https://docs.ultralytics.com/help/contributing) for details on how to get started. We also invite you to share your experiences with Ultralytics technologies by completing our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A big thank you 🙏 to all our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/nudar/graphs/contributors)
 
@@ -60,7 +60,7 @@ Contributions from the community are highly encouraged! Whether it's fixing bugs
 
 Ultralytics offers two licensing options for NUDAR:
 
-- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
+- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license ideal for students, researchers, and enthusiasts keen on collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/nudar/blob/main/LICENSE) file for full details.
 - **Enterprise License**: Designed for commercial applications, this license permits the integration of NUDAR into commercial products and services without the open-source obligations of AGPL-3.0. For commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
