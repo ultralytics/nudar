@@ -13,9 +13,9 @@ Welcome to the NUDAR (NeUtrino Detection and Ranging) repository by [Ultralytics
 
 NUDAR provides a comprehensive suite of [MATLAB](https://www.mathworks.com/products/matlab.html) simulations designed to advance the theoretical study of [antineutrino](https://en.wikipedia.org/wiki/Antineutrino) interactions and detection. This software is instrumental in deepening our understanding of antineutrino properties and their potential applications, such as probing the [Earth's interior](https://pubs.usgs.gov/gip/interior/) and enhancing nuclear detection capabilities.
 
-Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [https://doi.org/10.1016/j.physrep.2013.01.005](https://linkinghub.elsevier.com/retrieve/pii/S0370157313000240). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
+Our development is inspired by the foundational paper by G. Jocher et al., "Theoretical Antineutrino Detection, Direction and Ranging at Long Distances," published in Physics Reports (Volume 527, Issue 3, 2013). For an in-depth look at the scientific principles underpinning these simulations, please consult the publication via its DOI: [https://doi.org/10.1016/j.physrep.2013.01.005](https://doi.org/10.1016/j.physrep.2013.01.005). You can find more insights into related fields on the [Ultralytics Blog](https://www.ultralytics.com/blog).
 
-![Earth Modeling and Neutrino Detection Simulation](https://github.com/ultralytics/agm2015/blob/main/AGM2015small.jpg)
+![Earth Modeling and Neutrino Detection Simulation](https://raw.githubusercontent.com/ultralytics/agm2015/main/AGM2015small.jpg)
 
 ## 🧰 Requirements
 
