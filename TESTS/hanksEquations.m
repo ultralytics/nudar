@@ -4,7 +4,7 @@ clc
 clear all
 close all
 digits(5) %show a max of 5 digits
-%http://en.wikipedia.org/wiki/Linear_least_squares
+%https://en.wikipedia.org/wiki/Linear_least_squares
 syms xr yr GWr
 syms x1 y1 m1 x2 y2
 syms xhat1 yhat1 zhat1 N1 N2

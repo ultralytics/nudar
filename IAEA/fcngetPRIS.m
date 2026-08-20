@@ -110,7 +110,7 @@ Y=X; %Y is for spreadsheet
 for i=1:size(X,1)
     Y{i,13} = sprintf('=HYPERLINK("%s", "PRIS")',X{i,13});
     
-    urlstr = sprintf('http://maps.google.com?q=%.6f,%.6f&t=k',X{i,10},X{i,11}); %http://moz.com/ugc/everything-you-never-wanted-to-know-about-google-maps-parameters
+    urlstr = sprintf('http://maps.google.com?q=%.6f,%.6f&t=k',X{i,10},X{i,11}); %https://moz.com/blog/everything-you-never-wanted-to-know-about-google-maps-parameters
     Y{i,14} = sprintf('=HYPERLINK("%s", "Map")',urlstr);
     
     googleaddress = sprintf('%s nuclear power plant in %s',X{i,3},X{i,2});   
