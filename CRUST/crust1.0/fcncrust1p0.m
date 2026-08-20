@@ -24,7 +24,7 @@ CT = fcnloadtextfile('CNtype1-1.txt',500,false);  CT = CT.xs;%crust type
 %     0.62E-6       3.7E-6       0.72E-2           %8. lower crust (moho)
 %    .0065E-6    0.0173E-6     0.0078E-2     ];    %9. upper mantle
 
-%ABUNDANCE TABLE Huang et al 2013 http://arxiv.org/abs/1301.0365 ---------
+%ABUNDANCE TABLE Huang et al 2013 https://arxiv.org/abs/1301.0365 ---------
 %   uranium      thorium     potassium
 abundancesCC = [   ... %Continental Crust (CC)
    .0032E-6            0       0.04E-2           %1. water  -Mantovani et al. 2004

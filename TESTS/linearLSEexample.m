@@ -3,7 +3,7 @@
 clc
 clear all
 close all
-%http://en.wikipedia.org/wiki/Linear_least_squares
+%https://en.wikipedia.org/wiki/Linear_least_squares
 syms B1 B2 fcn e1 e2 e3 e4
 
 e1 = B1+1*B2-6;

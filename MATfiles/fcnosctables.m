@@ -64,7 +64,7 @@ end
 
 %IMPORT ELEMENT SPECTRA ---------------------------------------------------
 typeNames = {'uranium','thorium','potassium'};
-spectrumfileNames = {'AntineutrinoSpectrum_238U.knt','AntineutrinoSpectrum_232Th.knt','AntineutrinoSpectrum_40K.knt'}; %http://www.awa.tohoku.ac.jp/~sanshiro/research/geoneutrino/spectrum/index.html
+spectrumfileNames = {'AntineutrinoSpectrum_238U.knt','AntineutrinoSpectrum_232Th.knt','AntineutrinoSpectrum_40K.knt'}; %https://www.awa.tohoku.ac.jp/~sanshiro/research/geoneutrino/spectrum/index.html
 evecs = {table.mev.e(1):table.mev.de:4.4, table.mev.e(1):table.mev.de:2.3, table.mev.e(1):table.mev.de:1.4};
 input.detectorProtons = table.d(input.di).detector.volume*1000/1E6*.62E32;
 secPerDay   = 60*60*24;

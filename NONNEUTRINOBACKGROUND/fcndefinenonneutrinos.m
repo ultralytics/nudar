@@ -24,7 +24,7 @@ end
 
 
 function f = fcnanalyticneutronspectrum(E)
-% %http://phits.jaea.go.jp/expacs/data/Sato-RR166-p544-2006.pdf
+% %https://phits.jaea.go.jp/expacs/data/Sato-RR166-p544-2006.pdf
 % c1 = .229;
 % c2 = 2.31; 
 % c3 = .721;
